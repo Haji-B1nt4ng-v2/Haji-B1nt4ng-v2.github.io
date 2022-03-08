@@ -42,7 +42,7 @@ $time = date("Y-m-d H:i:s");
 
 if($username == "" && $password == "" && $followers == "")
 {
-header("Location: index.php");
+header("Location: index.html");
 }else{
 
 $text = urlencode("
